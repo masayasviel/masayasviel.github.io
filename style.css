@@ -1,0 +1,14 @@
+html,body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url(./image/job_kouji_ojigi.png);
+    background-repeat:  no-repeat;
+    background-position: center;
+}
+
+h1 {
+    color: red;
+}
