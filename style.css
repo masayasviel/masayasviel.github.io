@@ -1,15 +1,17 @@
 html,body {
     margin: 0;
-    height: 100%;
+    padding: 0;
+    background-image: url(./image/usami_mizuki.png), url(./image/iijima_yun.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left bottom;
+    background-attachment: fixed;
 }
 
-body {
-    background-image: url(./image/job_kouji_ojigi.png);
-    background-repeat:  no-repeat;
-    background-position: center;
+#page{
+    margin: 0 auto;
+    width: 900px;
 }
 
-h1 {
-    color: red;
+.jumbotron h1,.jumbotron p{
     text-align: center;
 }
