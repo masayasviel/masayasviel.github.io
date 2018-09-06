@@ -7,6 +7,11 @@ html,body {
     background-attachment: fixed;
 }
 
+.sorry{
+    color: red;
+    text-align: center;
+}
+
 #page{
     margin: 0 auto;
     width: 900px;
