@@ -14,7 +14,12 @@ html,body {
 
 #page{
     margin: 0 auto;
+    background-color: rgba(256, 256, 256, 0.5);
     width: 900px;
+}
+
+@media (max-width: 767px) {
+    #page{width:90%}
 }
 
 .jumbotron h1,.jumbotron p{
