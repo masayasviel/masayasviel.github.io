@@ -14,8 +14,16 @@ html,body {
 
 #page{
     margin: 0 auto;
-    width: 900px;
+    background-color: rgba(256, 256, 256, 0.5);
+    width: 90%;
 }
+
+/* Small devices (tablets, 768px and up) */ /* タブレットサイズだったら */
+@media (min-width: 768px) { #page{ width: 640px; } }
+
+/* Medium devices (desktops, 992px and up) */ /* PCサイズだったら */
+@media (min-width: 992px) { #page{ width: 900px; } }
+
 
 .jumbotron h1,.jumbotron p{
     text-align: center;
