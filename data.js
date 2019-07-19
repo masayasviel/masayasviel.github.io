@@ -5,5 +5,7 @@ const data = {
     typeGame : "タイピングゲーム\nPCで遊んでね",
     NervousBreakdown : "同じ色を揃えよう",
     chickenGame : "黒ひげのいない樽をあけよう",
-    pie_chart : "最大8つまで、スペースを入れずにカンマ区切りで半角数字を入力すると円グラフが生成されます"
+    pie_chart : "最大8つまで、スペースを入れずにカンマ区切りで半角数字を入力すると円グラフが生成されます",
+    crab_escape : "逃げる蟹を捕まえよう",
+    spritesheetRikka : "小鳥遊六花ちゃんグルグルgifをスプライトシートにしてphina.jsで動かしました"
 };
