@@ -5,11 +5,7 @@ html,body {
     background-repeat: no-repeat;
     background-position: right bottom, left bottom;
     background-attachment: fixed;
-}
-
-.sorry{
-    color: red;
-    text-align: center;
+    background-size: 20% auto;
 }
 
 #page{
