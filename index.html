@@ -1,154 +1,85 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>masayasviel</title>
-		<link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<header>
-			<div class="jumbotron">
-				<div class="container">
-					<p>ようこそ、魅惑と幻想の</p>
-					<h1><b>深淵へ</b></h1>
-					<p>GitHub:<a href="https://github.com/masayasviel" target="_blank">masayasviel</a></p>
-					<p>Qiita:<a href="https://qiita.com/masayasviel">masayasviel</a></p>
-				</div>
-			</div>
-		</header>
-		<div class="menu">
-			<div class="btn-group btn-group-justified" role="group">
-				<a href="#greeting" class="btn btn-default" role="button">Greeting</a>
-				<a href="#work" class="btn btn-default" role="button">Work</a>
-				<a href="#undefind" class="btn btn-default" role="button">undefind</a>
-				<a href="#undefind" class="btn btn-default" role="button">undefind</a>
-				<a href="#undefind" class="btn btn-default" role="button">undefind</a>
-			</div>
-		</div>
-		<div id="page">
-			<h1 id="greeting">Greeting</h1>
-			<p>やっはろ～！由比ヶ浜結衣だよ！</p>
-			<h1 id="work">Work</h1>
-			<p>作ったものの紹介とそのリンクだよ！遊んでね、ゆきのん！<br>もちろん、ヒッキーも遊んでいいよ……///</p>
-			<div class="row">
-				<div class="col-xs-12 col-md-3">
-					<div class="thumbnail">
-						<img src="./image/shooting.png">
-						<div class="caption">
-							<h3>shootingGame</h3>
-							<p>
-								<a href="https://masayasviel.github.io/shootingGame/" class="btn btn-default" role="button" target="_blank">play</a>
-								<input type="button" class="btn btn-default" id="shootingGame" value="how" onclick="getId(this)">
-							</p>
-						</div>
-					</div>
-					</div>
-				<div class="col-xs-12 col-md-3">
-					<div class="thumbnail">
-						<img src="./image/harumaki.png">
-						<div class="caption">
-							<h3>spring-roll-role-</h3>
-							<p>
-								<a href="https://masayasviel.github.io/spring-roll-role-/" class="btn btn-default" role="button" target="_blank">play</a>
-								<input type="button" class="btn btn-default" id="springRollRole" value="how" onclick="getId(this)">
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-md-3">
-					<div class="thumbnail">
-						<img src="./image/orange.png">
-						<div class="caption">
-							<h3>summerOrange</h3>
-							<p>
-								<a href="https://masayasviel.github.io/summerOrange/" class="btn btn-default" role="button" target="_blank">play</a>
-								<input type="button" class="btn btn-default" id="summerOrange" value="how" onclick="getId(this)">
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-md-3">
-					<div class="thumbnail">
-						<img src="./image/typing.png">
-						<div class="caption">
-							<h3>typeGame</h3>
-							<p>
-								<a href="https://masayasviel.github.io/typeGame/" class="btn btn-default" role="button" target="_blank">play</a>
-								<input type="button" class="btn btn-default" id="typeGame" value="how" onclick="getId(this)">
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-md-3">
-					<div class="thumbnail">
-						<img src="./image/tyonoryoku.png">
-						<div class="caption">
-							<h3>神経衰弱</h3>
-							<p>
-								<a href="https://masayasviel.github.io/NervousBreakdown/" class="btn btn-default" role="button" target="_blank">play</a>
-								<input type="button" class="btn btn-default" id="NervousBreakdown" value="how" onclick="getId(this)">
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-md-3">
-					<div class="thumbnail">
-						<img src="./image/taru.png">
-						<div class="caption">
-							<h3>黒ひげ危機一髪</h3>
-							<p>
-								<a href="https://masayasviel.github.io/blackBeard-phina_js/" class="btn btn-default" role="button" target="_blank">play</a>
-								<input type="button" class="btn btn-default" id="chickenGame" value="how" onclick="getId(this)">
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-md-3">
-					<div class="thumbnail">
-						<img src="./image/pie-graph.png">
-						<div class="caption">
-							<h3>Hello chart_js</h3>
-							<p>
-								<a href="https://masayasviel.github.io/generate-pie-chart/" class="btn btn-default" role="button" target="_blank">play</a>
-								<input type="button" class="btn btn-default" id="pie_chart" value="how" onclick="getId(this)">
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-md-3">
-					<div class="thumbnail">
-						<img src="https://4.bp.blogspot.com/-sgajyTFca4w/U820D46PUzI/AAAAAAAAjRE/Rpt5Vwp6dho/s800/takaashi_gani.png">
-						<div class="caption">
-							<h3>crab_escape</h3>
-							<p>
-								<a href="https://masayasviel.github.io/crab_escape/" class="btn btn-default" role="button" target="_blank">play</a>
-								<input type="button" class="btn btn-default" id="crab_escape" value="how" onclick="getId(this)">
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-md-3">
-					<div class="thumbnail">
-						<img src="./image/小鳥遊六花ちゃん.gif">
-						<div class="caption">
-							<h3>小鳥遊六花ちゃん萌え……</h3>
-							<p>
-								<a href="https://masayasviel.github.io/spritesheetRikka/" class="btn btn-default" role="button" target="_blank">play</a>
-								<input type="button" class="btn btn-default" id="spritesheetRikka" value="how" onclick="getId(this)">
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<h1 id="undefind">未定</h1>
-			<p>何か思いついてやる気が出たときに新しいコンテンツを追加するよ！<br>それまでクソして寝てな</p>
-		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="./bootstrap/bootstrap.min.js"></script>
-		<script type="text/javascript" src="data.js"></script>
-		<script type="text/javascript" src="index.js"></script>
-	</body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>masayasviel</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <h1 class="navbar-brand mr-auto">masayasviel</h1>
+            <div class="float-right">
+                <button class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navmenu"
+                  aria-controls="navmenu"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#greeting">Greeting</a>
+                        <a class="nav-item nav-link" href="#link">Link</a>
+                        <a class="nav-item nav-link" href="#works">Works</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron jumbotron-fluid bg-dark">
+            <div class="container">
+                <p class="lead text-center text-info">ようこそ、魅惑と幻想の・・・</p>
+                <h1 class="display-4 text-center text-primary"><b>深淵へ</b></h1>
+                <hr class="my-4" color="cyan">
+                <p class="lead text-center text-info">
+                    Click here for the code on this page......
+                    <a class="btn btn-primary btn-lg" href="https://github.com/masayasviel/masayasviel.github.io" role="button">code</a>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="column">
+            <h1 id="greeting">Greeting</h1>
+            <p title="嘘です。ホントはただのオタクです..." style="margin-left: 3%;">
+                やっはろ～！由比ヶ浜結衣だよ！
+            </p>
+        </div>
+        <div class="column">
+            <h1 id="link">Link</h1>
+            <div class="linkImage">
+                <a href="https://github.com/masayasviel">
+                    <img src="./image/github.png" alt="github" class="img-responsive">
+                </a>
+                <a href="https://qiita.com/masayasviel">
+                    <img src="./image/qiita.png" alt="qiita" class="img-responsive">
+                </a>
+            </div>
+        </div>
+        <div class="column">
+            <h1 id="works">Works</h1>
+            <div id="cards" class="row"></div>
+        </div>
+    </main>
+
+    <!-- modules -->
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- scripts -->
+    <script type="text/javascript" src="./js/data.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
 </html>
