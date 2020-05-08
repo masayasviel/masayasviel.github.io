@@ -2,7 +2,6 @@
 
 const panelData = [
     ["shootingGame", "shootingGame", "./image/shooting.png", "shootingGame", "https://masayasviel.github.io/shootingGame/", "https://github.com/masayasviel/shootingGame"],
-    ["springRollRole", "springRollRole", "./image/harumaki.png", "春巻き", "https://masayasviel.github.io/spring-roll-role-/", "https://github.com/masayasviel/spring-roll-role-"],
     ["夏ミカン", "summerOrange", "./image/orange.png", "Aqours", "https://masayasviel.github.io/summerOrange/", "https://github.com/masayasviel/summerOrange"],
     ["神経衰弱", "nervousBreakdown", "./image/tyonoryoku.png", "神経衰弱", "https://masayasviel.github.io/NervousBreakdown/", "https://github.com/masayasviel/NervousBreakdown"],
     ["blackBeard", "chickenGame", "./image/taru.png", "黒ひげ危機一髪", "https://masayasviel.github.io/blackBeard-phina_js/", "https://github.com/masayasviel/blackBeard-phina_js"],
@@ -15,7 +14,6 @@ const panelData = [
 
 const howData = {
     shootingGame : "シューティングゲーム",
-    springRollRole : "春巻きが飛びます",
     summerOrange : "木に当たらないようにミカンを集めよう",
     nervousBreakdown : "同じ色を揃えよう",
     chickenGame : "黒ひげのいない樽をあけよう",
