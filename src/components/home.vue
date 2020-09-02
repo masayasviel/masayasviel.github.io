@@ -103,7 +103,7 @@ export default {
 .linkImage {
   display: inline-block;
   width: 100%;
-  height: 7rem;
+  height: 6rem;
 }
 
 .linkImage img {
