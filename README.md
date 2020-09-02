@@ -1,7 +1,29 @@
-# リンク
-[masayasviel.github.io](https://masayasviel.github.io/)
+# masayasviel.github.io
 
-# `.nojekyll` について
+my homepage  
+link: [masayasviel.github.io](https://masayasviel.github.io/)
 
-node_modulesを読み込めるようにしている  
-[参考](https://qiita.com/tic40/items/5a777fb7fc17fec868d1)
+# Requirement
+
+- node.js
+- vue cli
+- vue-router
+
+# Installation
+
+```bash
+npm install -g vue-cli
+npm install vue-router
+```
+
+# Usage
+## Compiles and hot-reloads for development
+
+```bash
+npm run serve
+```
+
+## Compiles and minifies for production
+```bash
+npm run build
+```
