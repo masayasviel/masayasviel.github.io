@@ -27,3 +27,7 @@ npm run serve
 ```bash
 npm run build
 ```
+
+# Note
+ 
+`/docs`をgithub pagesにしてあるので注意
