@@ -6,7 +6,7 @@
     <div class="acd-content">
       <a class="acd-element" :href="node.URL"><button>play</button></a>
       <a class="acd-element" :href="node.code"><button>code</button></a>
-      <button @click="alertHow"><div class="acd-element">how</div></button>
+      <button @click="alertHow">how</button>
     </div>
   </div>
 </template>
