@@ -88,6 +88,7 @@ export default {
 
 .about-me table {
   margin-left: 7%;
+  background:rgba(255,255, 255, 0.5);
 }
 
 .list-items {

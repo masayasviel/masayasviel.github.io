@@ -4,8 +4,8 @@
     <input :id="node.id" class="acd-check" type="checkbox">
     <label class="acd-label" :for="node.id" @click="toggleIsOpenMenu">{{ node.title }} {{ isOpenMenu ? "▲": "▼"}}</label>
     <div class="acd-content">
-      <button><a class="acd-element" :href="node.URL">play</a></button>
-      <button><a class="acd-element" :href="node.code">code</a></button>
+      <a class="acd-element" :href="node.URL"><button>play</button></a>
+      <a class="acd-element" :href="node.code"><button>code</button></a>
       <button @click="alertHow"><div class="acd-element">how</div></button>
     </div>
   </div>
@@ -86,16 +86,13 @@ export default {
   background-color: transparent;
 }
 
-.acd-content button:hover {
-  background-color: black;
-}
-
 .acd-element {
   text-decoration: none;
   color: black;
 }
 
-.acd-content button:hover .acd-element {
+.acd-content button:hover {
+  background-color: black;
   color: azure;
 }
 </style>
