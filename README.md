@@ -12,8 +12,7 @@ link: [masayasviel.github.io](https://masayasviel.github.io/)
 # Installation
 
 ```bash
-npm install -g vue-cli
-npm install vue-router
+npm install
 ```
 
 # Usage

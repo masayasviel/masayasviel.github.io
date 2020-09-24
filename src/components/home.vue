@@ -11,6 +11,11 @@
       <h1>わたしについて</h1>
       <table border="1">
         <tr>
+          <td colspan="2">
+            <img src="../assets/like-luffy.jpg" alt="何が嫌いかより何が好きかで自分を語れよ!!!">
+          </td>
+        </tr>
+        <tr>
           <th>好きなアニメ</th>
           <td>
             <ul v-for="(anime, index) in favorite.anime" :key="index">
@@ -89,6 +94,10 @@ export default {
 .about-me table {
   margin-left: 7%;
   background:rgba(255,255, 255, 0.5);
+}
+
+.about-me table img {
+  max-width: 100%;
 }
 
 .list-items {
