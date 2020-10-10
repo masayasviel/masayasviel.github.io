@@ -1,6 +1,7 @@
 <template>
   <div class="home">
 
+  <div class="home-background">
     <div class="greet">
       <h1>Greeting</h1>
       <div class="welcome">ようこそ、魅惑と幻想の・・・</div>
@@ -50,6 +51,7 @@
         </a>
       </div>
     </div>
+  </div>
 
   </div>
 </template>
@@ -71,10 +73,20 @@ export default {
   margin: 0;
   padding: 0;
   height: 100%;
+}
+
+.home-background:before {
+  content:"";
+  display:block;
+  position:fixed;
+  z-index:-1;
+  width:100%;
+  height:100%;
+  right: 0;
+  bottom: 0;
   background-image: url(../assets/mizunoai.png);
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-attachment: fixed;
 }
 
 .greet div {
