@@ -12,8 +12,7 @@
       <h1>わたしについて</h1>
       <table border="1">
         <tr>
-          <td colspan="2">
-            <img src="../assets/like-luffy.jpg" alt="何が嫌いかより何が好きかで自分を語れよ!!!">
+          <td class="luffy" colspan="2">
           </td>
         </tr>
         <tr>
@@ -108,8 +107,13 @@ export default {
   background:rgba(255,255, 255, 0.5);
 }
 
-.about-me table img {
-  max-width: 100%;
+.about-me .luffy:before {
+  content:"";
+  display: block;
+  padding-top: 75%;
+  background-image: url(../assets/like-luffy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .list-items {
