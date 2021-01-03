@@ -43,5 +43,14 @@
     "URL": "https://masayasviel.github.io/online-compile-python/",
     "code": "https://github.com/masayasviel/online-compile-python",
     "how": "Python3のコードが実行できる"
+  },
+  {
+    "id": "trpgCharacterSheet",
+    "title": "TRPGキャラシート",
+    "imgPass": "cthulhu.png",
+    "imgAlt": "TRPG用のキャラクターシート",
+    "URL": "https://masayasviel.github.io/TRPG-character-sheet/",
+    "code": "https://github.com/masayasviel/TRPG-character-sheet",
+    "how": "TRPG用のキャラクターシート。PCじゃないと使いにくいかも"
   }
 ]

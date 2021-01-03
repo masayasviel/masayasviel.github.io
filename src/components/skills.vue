@@ -5,19 +5,19 @@
       <tr>
         <td>☆☆☆</td>
         <td class="content">
-          JavaScript, HTML, CSS, Ruby, phina.js
+          TypeScript, Ruby
         </td>
       </tr>
       <tr>
         <td>☆☆</td>
         <td class="content">
-          Python, Vue.js, Node.js, Arduino, GitHub
+          C/C++, JavaScript(Node.js), HTML, CSS
         </td>
       </tr>
       <tr>
         <td>☆</td>
         <td class="content">
-          C/C++, HTML canvas
+          Python, Arduino, GitHub
         </td>
       </tr>
     </table>

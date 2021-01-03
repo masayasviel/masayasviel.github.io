@@ -60,10 +60,6 @@ export default {
   display: block;
 }
 
-.acd-label:hover {
-  color: aqua;
-}
-
 .acd-content{
   height: 0;
   opacity: 0;
