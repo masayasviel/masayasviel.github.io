@@ -1,0 +1,59 @@
+<div class="home-background">
+    <div class="greet">
+        <h1>Greeting</h1>
+        <div class="welcome">ようこそ、魅惑と幻想の・・・</div>
+        <div class="dark-and-dark">深淵へ</div>
+    </div>
+    
+    <div class="about-me">
+        <h1>About me</h1>
+        <table border="1">
+            <tr>
+              <td class="luffy" colspan="2">
+              </td>
+            </tr>
+            <tr>
+              <th>好きなアニメ</th>
+              <td>
+                <ul *ngFor="let anime of favorite.anime">
+                  <li class="list-items"><strong>{{ anime }}</strong></li>
+                </ul>
+                <div class="etc">...etc</div>
+              </td>
+            </tr>
+            <tr>
+              <th>好きなマンガ</th>
+              <td>
+                <ul *ngFor="let manga of favorite.manga">
+                  <li class="list-items"><strong>{{ manga }}</strong></li>
+                </ul>
+                <div class="etc">...etc</div>
+              </td>
+            </tr>
+            <tr>
+              <th>好きな映画</th>
+              <td>
+                <ul *ngFor="let movie of favorite.movie">
+                  <li class="list-items"><strong>{{ movie }}</strong></li>
+                </ul>
+                <div class="etc">...etc</div>
+              </td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="links">
+        <h1>Link</h1>
+        <div class="linkImage">
+            <a href="https://github.com/masayasviel" target="_blank" rel="noopener noreferrer">
+                <img src="assets/github.png" alt="github">
+            </a>
+            <a href="https://qiita.com/masayasviel" target="_blank" rel="noopener noreferrer">
+                <img src="assets/qiita.png" alt="qiita">
+            </a>
+            <a href="https://atcoder.jp/users/masayasviel" target="_blank" rel="noopener noreferrer">
+                <img src="assets/atcoder.png" alt="AtCoder" style="border: solid black;">
+            </a>
+        </div>
+    </div>
+</div>

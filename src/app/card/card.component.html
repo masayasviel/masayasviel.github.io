@@ -1,0 +1,15 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>{{ worksDict.title }}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="commonImagePath+worksDict.imgPass" [alt]="worksDict.imgAlt">
+    <mat-card-actions>
+        <a [href]="worksDict.url" target="_blank" rel="noopener noreferrer">
+            <button mat-icon-button aria-label="icon button with a play icon"><mat-icon>play_circle</mat-icon></button>
+        </a>
+        <a [href]="worksDict.code" target="_blank" rel="noopener noreferrer">
+            <button mat-icon-button aria-label="icon button with a code icon"><mat-icon>code</mat-icon></button>
+        </a>
+        <button mat-icon-button aria-label="icon button with a how icon" (click)="howDialog()"><mat-icon>contact_support</mat-icon></button>
+    </mat-card-actions>
+</mat-card>

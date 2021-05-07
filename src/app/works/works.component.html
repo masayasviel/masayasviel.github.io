@@ -1,0 +1,7 @@
+<h1>Works</h1>
+<div>つくったものをここにまとめていきます</div>
+<div fxLayout="row wrap" fxLayoutAlign="space-around">
+    <ng-container *ngFor="let item of data">
+        <app-card [worksDict]="item"></app-card>
+    </ng-container>
+</div>

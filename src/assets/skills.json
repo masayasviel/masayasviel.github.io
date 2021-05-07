@@ -1,0 +1,16 @@
+[
+    {"tech": "JavaScript", "level": 3},
+    {"tech": "TypeScript", "level": 3},
+    {"tech": "Node", "level": 3},
+    {"tech": "HTML/CSS", "level": 3},
+    {"tech": "phina.js", "level": 3},
+    {"tech": "Ruby", "level": 3},
+    {"tech": "Vue", "level": 2},
+    {"tech": "C/C++", "level": 2},
+    {"tech": "Python", "level": 2},
+    {"tech": "GitHub", "level": 2},
+    {"tech": "Angular", "level": 1},
+    {"tech": "Arduino", "level": 1},
+    {"tech": "firebase", "level": 1},
+    {"tech": "JPEG/JPEG 2000", "level": 1}
+]
